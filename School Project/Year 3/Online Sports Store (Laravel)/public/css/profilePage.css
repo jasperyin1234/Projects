@@ -1,0 +1,311 @@
+/* Import Font Dancing Script */
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+/*GLOBAL DECLARE*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    background-color: white;
+    width: 100%;
+    padding: 17px 15px;
+}
+
+.leftlinav:hover {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+[class*="colpad"] {
+    float: left;
+    padding: 0 15px;
+}
+
+/*STRUCTURE*/
+.mainbox {
+    background-color: #f7f7f7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentbox {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.rightcol {
+    width: 75%;
+    float: left;
+    padding: 0 15px;
+    margin-right: 20px;
+}
+
+.leftcol {
+    width: 25%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 20px;
+}
+
+div {
+    display: block;
+}
+
+/* FONT */
+h4 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 0.66em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
+
+.profileparagraph {
+    font-size: 14px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
+
+/*LEFT BOX NAV*/
+.leftlinav {
+    width: 100%;
+    display: flex;
+    padding: 17px 15px;
+    text-decoration: none;
+    flex-direction: row;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
+
+/*RIGHT BOX CONTENT*/
+.rightbox {
+    background-color: white;
+}
+
+.rightboxcontent {
+    padding: 16px 7px;
+    margin-left: 40px;
+    /* min-height: 300px; */
+    justify-content: center;
+}
+
+.profiledetailbox {
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
+
+.profiledetail {
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: transparent;
+    color: black;
+    min-height: 0;
+    padding: 0px;
+    text-align: left;
+    white-space: unset;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2;
+    line-height: 20px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* PROFILE POP UP */
+.btnOff, .btnSave {
+    margin: 20px;
+    font-size: 15px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    color: white;
+    background-color: black;
+    padding: 10px 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    align-items: center;
+    text-decoration: none;
+}
+
+.btnOff:hover, .btnSave:hover {
+    margin: 20px;
+    font-size: 15px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    color: black;
+    background-color: white;
+    text-decoration: underline;
+    padding: 10px 18px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.detail-field {
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    /* min-height: calc(50px + 30px); */
+}
+
+.detail-field-input {
+    border-bottom: none;
+    box-shadow: 0 2px 0 0 #0a5;
+}
+
+.detail-field-input:invalid {
+    border-bottom: none;
+    box-shadow: 0 2px 0 0 #e32b2b;
+}
+
+label {
+    color: black;
+    line-height: 2.1em;
+    margin-left: 10px;
+}
+
+#wrap {
+    text-align: center;
+}
+
+/*Input Fields Styles
+  =========================*/
+
+input, textarea {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-size: 15px;
+    color: #333;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 0 1px #39cb58;
+    padding: 5px;
+    width: 75%;
+    margin: 5px auto;
+    border: 0;
+    border-radius: 2.5px;
+    outline: 0;
+    transition: 0.3s ease;
+}
+
+input:hover, textarea:hover {
+    box-shadow: 0 0 0 1px #39cb58;
+    background-color: #fff;
+}
+
+.grid-35 {
+    width: 35%;
+    float: left;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+.grid-65 {
+    position: relative;
+    width: 65%;
+    float: right;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+/* #CLEARFIX HACK
+  =========================*/
+.clear:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+/* Edit View
+  ======================*/
+h1 {
+    text-align: center;
+    color: black;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 0.66em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+select {
+    border-radius: 2.5px;
+    outline: 0;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-size: 15px;
+    color: #333;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 0 1px #39cb58;
+    padding: 5px;
+    width: 75%;
+    margin: 5px auto;
+    border: 0;
+    transition: 0.3s ease;
+}
+
+select option {
+    padding: 10px;
+}
+
+fieldset {
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+fieldset:last-child {
+    border: none;
+}

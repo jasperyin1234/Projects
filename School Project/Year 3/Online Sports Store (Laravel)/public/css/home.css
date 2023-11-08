@@ -1,0 +1,426 @@
+body {
+    background: transparent;
+}
+
+.home-title {
+    font-family: "Trebuchet MS", sans-serif;
+    color: black;
+    text-align: left;
+    padding-left: 30px;
+    font-size: 60px;
+}
+
+.carousel-header {
+    font-size: 80px;
+    position: absolute;
+    float: left;
+    text-align: left;
+    margin-top: -500px;
+    margin-left: 10px;
+    color: white;
+    font-weight: normal;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+.carousel-container {
+    margin-top: 50px;
+    max-width: 85%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.carousel {
+    outline: none;
+    margin: 0;
+}
+
+.trending-wrapper {
+    padding: 50px;
+    align-items: center;
+}
+
+.trending-title {
+    font-family: "Trebuchet MS", sans-serif;
+    color: black;
+    font-size: 40px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.company-background-wrapper {
+    margin-top: 100px;
+    background: #d3d3d3;
+    padding: 10px;
+}
+
+.company-background-title {
+    text-align: left;
+    padding-left: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+.company-background-text {
+    text-align: left;
+    font-size: 25px;
+    padding-left: 30px;
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+.product .card .box .btn:hover {
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    transition: 0.5s;
+}
+
+.products-preview {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.products-preview .preview {
+    display: none;
+    padding: 2rem;
+    bottom: 60px;
+    text-align: center;
+    background: rgb(247, 242, 242);
+    position: relative;
+    margin: 5rem;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.products-preview .preview img {
+    max-width: 80%;
+    transition: 0.3s;
+}
+
+.products-preview .preview.active {
+    display: inline-block;
+}
+
+.products-preview .preview .buttons {
+    display: inline-flex;
+}
+
+.products-preview .preview .btn1 {
+    margin: 20px;
+    font-size: 15px;
+    color: black;
+    padding: 10px 18px;
+    font-weight: bold;
+    border: 2px solid grey;
+    border-color: grey;
+    border-radius: 5px;
+}
+
+.products-preview .preview .buttons .btn1 a {
+    text-decoration: none;
+}
+
+.products-preview .preview .btn1:hover {
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    transition: 0.5s;
+}
+
+.products-preview .preview .btn2 {
+    margin: 20px;
+    font-size: 15px;
+    color: black;
+    padding: 10px 18px;
+    font-weight: bold;
+    border: 2px solid grey;
+    border-color: grey;
+    border-radius: 5px;
+}
+
+.products-preview .preview .buttons .btn2 a {
+    text-decoration: none;
+}
+
+.products-preview .preview .btn2:hover {
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    transition: 0.5s;
+}
+
+.products-preview .preview .table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+.products-preview .preview .table th,
+td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+.products-preview .preview .table th {
+    background-color: #333;
+    color: white;
+}
+.products-preview .preview .table td input[type="checkbox"] {
+    display: none;
+}
+.products-preview .preview .table td label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+.products-preview .preview .table td label:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.products-preview
+    .preview
+    .table
+    td
+    input[type="checkbox"]:checked
+    + label:before {
+    content: "\2713";
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.section2 {
+    padding: 0 5%;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.product .card {
+    width: 300px;
+    background: rgb(247, 243, 243);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.product .card:hover {
+    border: 1px solid black;
+    transition: 0.2s;
+}
+
+.product .card:hover img {
+    transform: scale(0.9);
+    z-index: 2;
+}
+
+.product .card img {
+    height: 250px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.product .card .title {
+    font-weight: 900;
+    font-size: 20px;
+    color: black;
+    padding: 10px 20px;
+}
+
+.product .card .desc {
+    font-size: 15px;
+    color: black;
+    padding: 10px 20px;
+}
+
+.product .card .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.product .card .box .price {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product .card .box .btn {
+    font-size: 15px;
+    color: black;
+    padding: 10px 18px;
+    font-weight: 900;
+    border: 2px solid grey;
+    border-color: grey;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.product .card .box .btn:hover {
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    transition: 0.5s;
+}
+
+.products-preview {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.products-preview .preview {
+    display: none;
+    padding: 2rem;
+    bottom: 60px;
+    text-align: center;
+    background: rgb(247, 242, 242);
+    position: relative;
+    margin: 5rem;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.products-preview .preview img {
+    max-width: 80%;
+    transition: 0.3s;
+}
+
+.products-preview .preview.active {
+    display: inline-block;
+}
+
+.products-preview .preview .buttons {
+    display: inline-flex;
+}
+
+.products-preview .preview .btn1 {
+    margin: 20px;
+    font-size: 15px;
+    color: black;
+    background-color: rgb(221, 219, 219);
+    padding: 10px 18px;
+    font-weight: bold;
+    border: 2px solid grey;
+    border-color: grey;
+    border-radius: 5px;
+}
+
+.products-preview .preview .buttons .btn1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.products-preview .preview .btn1:hover {
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    transition: 0.5s;
+}
+
+.products-preview .preview .btn2 {
+    margin: 20px;
+    font-size: 15px;
+    color: black;
+    background-color: rgb(221, 219, 219);
+    padding: 10px 18px;
+    font-weight: bold;
+    border: 2px solid grey;
+    border-color: grey;
+    border-radius: 5px;
+}
+
+.products-preview .preview .buttons .btn2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.products-preview .preview .btn2:hover {
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    transition: 0.5s;
+}
+
+.products-preview .preview .table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+.products-preview .preview .table th,
+td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+.products-preview .preview .table th {
+    background-color: #333;
+    color: white;
+}
+.products-preview .preview .table td input[type="checkbox"] {
+    display: none;
+}
+.products-preview .preview .table td label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    padding-left: 25px;
+    margin-bottom: 10px;
+}
+.products-preview .preview .table td label:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.products-preview
+    .preview
+    .table
+    td
+    input[type="checkbox"]:checked
+    + label:before {
+    content: "\2713";
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #333;
+    color: white;
+}
