@@ -1,0 +1,151 @@
+.bg-white {
+  background-color: white;
+}
+
+.bg-theme-color {
+  background-color: #2E94B9 !important;; /* Set the background color to the specified color. */
+}
+
+.bg-theme-color:hover {
+  background-color: #298baf !important;; /* Set the background color to the specified color. */
+}
+
+.custom-shadow {
+  box-shadow: 2px 2px 4px rgba(41, 139, 175, 0.2); /* Set the shadow color to #298baf */
+}
+
+
+.text-theme-color {
+  color: #2E94B9 !important;; /* Set the background color to the specified color. */
+}
+
+.blue-border {
+  border: 2px solid #2E94B9;
+}
+
+.button-hover-background-color {
+  background-color: white; /* Set the initial background color */
+  color: #2E94B9; /* Set the initial text color */
+  transition: background-color 0.3s; /* Add a smooth color transition for the hover effect */
+}
+
+.button-hover-background-color:hover {
+  background-color: #2E94B9; /* Change the background color to #2E94B9 on hover */
+  color: white; /* Change the text color to white on hover */
+}
+
+.text-hover-color {
+  color: initial-color; /* Set the initial text color */
+  transition: color 0.3s; /* Add a smooth color transition for the hover effect */
+}
+
+.text-hover-color:hover {
+  color: white; /* Change the text color to white on hover */
+}
+
+.hide-scroll-bar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
+table {
+  margin: 0 auto; /* Center the container horizontally */
+  max-width: 90%; /* Set a maximum width for the table container */
+  padding: 20px; /* Add padding to the container for space on the left and right */
+  border: 1px solid #ccc; /* Add borders around the table */
+}
+
+table th, table td {
+  padding: 10px; /* Add padding to table cells */
+  border: 1px solid #ccc; /* Add borders to table cells */
+  text-align: left;
+}
+
+/* Style the table header row */
+table th {
+  text-align: center;
+  background-color: #f2f2f2; /* Add a background color to the header row */
+}
+
+/* Style alternate rows with a background color */
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style table hover effect */
+table tr:hover {
+  background-color: #e0e0e0;
+}
+
+/* Additional styling for buttons in table cells */
+table button {
+  padding: 5px 10px; /* Adjust padding for buttons */
+}
+
+.verify-button {
+  color: #4CAF50;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Style the "Delete" button with red color */
+.delete-button {
+  color: #FF5733;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 500px;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px;
+  position: relative;
+}
+
+/* Close Button */
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.confirm-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center; /* Center the text horizontally */
+  display: block; /* Make the button a block-level element for centering */
+  margin: 0 auto; /* Center the button horizontally */
+}
+
+.confirm-button:hover {
+  background-color: #0056b3;
+}
