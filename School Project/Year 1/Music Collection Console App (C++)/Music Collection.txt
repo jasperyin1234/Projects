@@ -1,0 +1,100 @@
+Dance Monkey|The Kids Are Coming|Tones and I|Toni Watson|Electropop|10|5|2019|C:\Users\User\Music\DanceMonkey
+Blinding Lights|After Hours|the Weeknd|Abel Tesfaye|Electropop|29|11|2019|C:\Users\User\Music\BlindingLights
+Roses|Collection One|Saint Jhn|Carlos Phillips|Dance|18|9|2019|C:\Users\User\Music\Roses
+Rockstar|Blame It on Baby|Dababy|Johnathan Kirk|Hip Hop|17|4|2020|C:\Users\User\Music\Rockstar
+Cardigan|Folklore|Taylor Swift|Taylor Swift|Folk|27|7|2020|C:\Users\User\Music\Cardigan
+Mood|El Dorado|24kGoldn|Golden Von Jones|Pop Rap|24|7|2020|C:\Users\User\Music\Mood
+Positions|Positions|Ariana Grande|Angelina Barrett|Pop|23|10|2020|C:\Users\User\Music\Positions
+Willow|Evermore|Taylor Swift|Taylor Swift|Folk|11|12|2020|C:\Users\User\Music\Willow
+All I Want for Christmas Is You|Merry Christmas|Mariah Carey|Mariah Carey|Christmas|28|10|1994|C:\Users\User\Music\AllIWantforChristmasIsYou
+Adore You|Fine Line|Harry Styles|Harry Styles|Pop|6|12|2019|C:\Users\User\Music\AdoreYou
+Smoke On the Water|Machine Head|Deep Purple|Ian Paice|Rock|1|5|1971|C:\Users\User\Music\SmokeOntheWater
+Smells Like Teen Spirit|Nevermind|Nirvana|Nirvana|Rock|17|6|2009|C:\Users\User\Music\SmellsLikeTeenSpirit
+Walk This Way|Raising Hell|Run-D.M.C.|Run-D.M.C.|Rock|25|10|2009|C:\Users\User\Music\WalkThisWay
+More Than a Feeling|Boston|Boston|Boston|Rock|22|5|2011|C:\Users\User\Music\MoreThanAFeeling
+Call Me Maybe|Kiss|Carly Rae Jepsen|Carly Rae Jepsen|Pop|2|5|2012|C:\Users\User\Music\CallMeMaybe
+I Wanna Dance with Somebody|Whitney|Whitney Houston|Whitney Houston|Pop|25|10|2009|C:\Users\User\Music\IWannaDanceWithSomebody
+Rain On Me|Chromatica|Ariana Grande|Ariana Grande|Pop|23|5|2020|C:\Users\User\Music\RainOnMe
+Uptown Funk|Uptown Funk|Mark Ronson|Charlie Wilson|Pop|19|11|2014|C:\Users\User\Music\UptownFunk
+Idol|Love Yourself:Answer|BTS|Bang Si-Hyuk|EDM|24|8|2018|C:\Users\User\Music\FightThePower
+Juicy|Juicy|The Notorious BIG|Puff Daddy & Jean-Claude Olivier|Hip Hop|7|9|2011|C:\Users\User\Music\Juicy
+STILL D.R.E.|2001|Dr. Dre|Dr. Dre|Hip Hop|28|10|2011|C:\Users\User\Music\STILLD.R.E.
+Puff The Magic Dragon|Moving|Peter|Peter, Paul and Mary|Folk|11|6|2013|C:\Users\User\Music\PuffTheMagicDragon
+The Last Thing On My Mind|Ramblin' Boy|Tom Paxton|Tom Paxton|Folk|15|1|2008|C:\Users\User\Music\TheLastThingOnMyMind
+Gentle On My Mind|Gentle On My Mind|John Hartford|John Hartford|Folk|19|6|1967|C:\Users\User\Music\GentleonMyMind
+Believer|Evolve|Imagine Dragons|Mattman & Robin|Pop Rock|1|2|2017|C:\Users\User\Music\Believer
+Thunder|Evolve|Imagine Dragons|Alexander Grant & Jayson DeZuzio|Pop Rock|27|4|2017|C:\Users\User\Music\Thunder
+Whatever It Takes|Evolve|Imagine Dragons|Alexander Grant & Jayson DeZuzio|Pop Rock|8|5|2017|C:\Users\User\Music\WhateverItTakes
+Next to Me|Evolve|Imagine Dragons|Imagine Dragons|Pop Rock|21|2|2018|C:\Users\User\Music\NextToMe
+Sucker for Pain|Suicide Squad|Imagine Dragons|Imagine Dragons|Rap|24|6|2016|C:\Users\User\Music\SuckerforPain
+Bleeding Out|Night Visions|Imagine Dragons|Imagine Dragons|Indie|5|6|2012|C:\Users\User\BleedingOut
+Battle Cry|Smoke+Mirrors|Imagine Dragons|Michael Bay|Indie|6|2|2014|C:\Users\User\Music\BattleCry
+Shots|Smoke+Mirrors|Imagine Dragons|Imagine Dragons|Pop|26|2|2015|C:\Users\User\Music\Shots
+Billie Jean|Thriller|Michael Jackson|Michael Jackson|Pop|2|1|1983|C:\Users\User\Music\BillieJean
+Smooth Criminal|Bad 25|Michael Jackson|Michael Jackson|Pop|14|11|1988|C:\Users\User\Music\SmoothCriminal
+Beat It|Thriller|Michael Jackson|Michael Jackson & Quincy Jones|Rock|14|2|1983|C:\Users\User\Music\BeatIt
+Bad|Bad 25|Michael Jackson|Michael Jackson & Quincy Jones|Pop|7|9|1987|C:\Users\User\Music\Bad
+Jam|Dangerous|Michael Jackson|Michael Jackson|Pop|13|7|1992|C:\Users\User\Music\Jam
+Man In The Mirror|Bad 25|Michael Jackson|Michael Jackson & Quincy Jones|Pop|6|2|1988|C:\Users\User\Music\ManInTheMirror
+Heal The World|Dangerous|Michael Jackson|Bruce Swedien|Pop|23|11|1992|C:\Users\User\Music\HealTheWorld
+Rock with You|Off the Wall|Michael Jackson|Rod Temperton|Pop|3|11|1979|C:\Users\User\Music\RockwithYou
+Wanna Be Startin Somethin|Thriller|Michael Jackson|Michael Jackson|Pop|8|5|1983|C:\Users\User\Music\WannaBeStartinSomethin
+Dont Stop Til You Get Enough|Off the Wall|Michael Jackson|Michael Jackson|Pop|10|7|1979|C:\Users\User\Music\DontStopTilYouGetEnough
+Remember the Time|Dangerous|Michael Jackson|Michael Jackson|Pop|14|1|1992|C:\Users\User\Music\RememberTheTime
+The Last Great American Dynasty|Folklore|Taylor Swift|Taylor Swift|Folk|24|7|2020|C:\Users\User\Music\TheLastGreatAmericanDynasty
+Exile|Folklore|Taylor Swift|Taylor Swift|Folk|24|8|2020|C:\Users\User\Music\Exile
+My Tears Ricochet|Folklore|Taylor Swift|Taylor Swift|Folk|24|8|2020|C:\Users\User\Music\MyTearsRicochet
+Mirrorball|Folklore|Taylor Swift|Taylor Swift|Folk|24|8|2020|C:\Users\User\Music\Mirrorball
+Seven|Folklore|Taylor Swift|Taylor Swift|Folk|24|8|2020|C:\Users\User\Music\Seven
+August|Folklore|Taylor Swift|Taylor Swift|Folk|24|8|2020|C:\Users\User\Music\August
+This Is Me Trying|Folklore|Taylor Swift|Taylor Swift|Folk|24|8|2020|C:\Users\User\Music\ThisIsMeTrying
+Epiphany|Folklore|Taylor Swift|Taylor Swift|Folk|24|8|2020|C:\Users\User\Music\Epiphany
+Betty|Folklore|Taylor Swift|Taylor Swift|Folk|24|8|2020|C:\Users\User\Music\Betty
+Peace|Folklore|Taylor Swift|Taylor Swift|Folk|24|8|2020|C:\Users\User\Music\Peace
+Hoax|Folklore|Taylor Swift|Taylor Swift|Folk|24|8|2020|C:\Users\User\Music\Hoax
+Nocturne|End Credits|Eden|Jonathan Ng|Indie Pop|26|6|2015|C:\Users\User\Music\Nocturne
+Gravity|End Credits|Eden|Jonathan Ng|Indie Pop|15|7|2015|C:\Users\User\Music\Gravity
+End Credits|End Credits|Eden|Jonathan Ng|Indie Pop|15|7|2015|C:\Users\User\Music\EndCredits
+Gold|Vertigo|Eden|Jonathan Ng|Indie Pop|10|11|2017|C:\Users\User\Music\Gold
+Crash|Vertigo|Eden|Jonathan Ng|Indie Pop|8|12|2017|C:\Users\User\Music\Crash
+Untitled|No Future|Eden|Jonathan Ng|Indie Pop|8|10|2019|C:\Users\User\Music\Untitled
+Projector|No Future|Eden|Jonathan Ng|Indie Pop|25|10|2019|C:\Users\User\Music\Projector
+Love, Death, Distraction|No Future|Eden|Jonathan Ng|Indie Pop|25|10|2019|C:\Users\User\Music\Love,Death,Distraction
+Isohel|No Future|Eden|Jonathan Ng|Indie Pop|25|10|2019|C:\Users\User\Music\Isohel
+Comethru|Love Is Not Dying|Jeremy Zucker|Jeremy Zucker|Indie Pop|7|9|2019|C:\Users\User\Music\Comethru
+Still|Love Is Not Dying|Jeremy Zucker|Jeremy Zucker|Indie Pop|17|4|2020|C:\Users\User\Music\Still
+Somebody Loves You|Love Is Not Dying|Jeremy Zucker|Jeremy Zucker|Indie Pop|17|4|2020|C:\Users\User\Music\SomebodyLovesYou
+Orchid|Love Is Not Dying|Jeremy Zucker|Jeremy Zucker|Indie Pop|17|4|2020|C:\Users\User\Music\Orchid
+Julia|Love Is Not Dying|Jeremy Zucker|Jeremy Zucker|Indie Pop|17|4|2020|C:\Users\User\Music\Julia
+Anyone|Justice|Justin Bieber|Justin Bieber|Pop|1|1|2021|C:\Users\User\Music\Anyone
+Holy|Justice|Justin Bieber|Chance the Rapper|Pop|18|9|2020|C:\Users\User\Music\Holy
+Lonely|Justice|Justin Bieber|Benny Blanco|Pop|16|10|2020|C:\Users\User\Music\Lonely
+Yummy|Changes|Justin Bieber|Justin Bieber|Pop|5|1|2020|C:\Users\User\Music\Yummy
+Peaches|Justice|Justin Bieber|Daniel Caesar & Giveon|Pop|19|3|2021|C:\Users\User\Music\Peaches
+As I Am|Justice|Justin Bieber|Khalid|Pop|19|3|2021|C:\Users\User\Music\AsIAm
+Hold On|Justice|Justin Bieber|Justin Bieber|Pop|5|3|2021|C:\Users\User\Music\HoldOn
+Intention|Changes|Justin Bieber|Quavo|Pop|7|2|2020|C:\Users\User\Music\Intention
+Despacito|Vida|Luis Fonsi|Luis Fonsi|Pop|13|1|2017|C:\Users\User\Music\Despacito
+Baby|My World 2.0|Justin Bieber|Ludacris|Pop|25|4|2010|C:\Users\User\Music\Baby
+Cold Water|Cold Water|Major Lazer|Justin Bieber|Pop|22|7|2016|C:\Users\User\Music\Cold Water
+Monster|Wonder|Shawn Mendes|Shawn Mendes & Justin Bieber|Pop|20|11|2020|C:\Users\User\Music\Monster
+Up|My World 2.0|Justin Bieber|Nasri Atweh|R&B|19|3|2010|C:\Users\User\Music\Up
+Unstable|Justice|Justin Bieber|The Kid LAROI|Pop|19|3|2021|C:\Users\User\Music\Unstable
+U Smile|My World 2.0|Justin Bieber|Justin Bieber|Pop|29|9|2010|C:\Users\User\Music\USmile
+Beauty And A Beat|The Best|Justin Bieber|Nicki Minaj|Pop|12|10|2012|C:\Users\User\Music\BeautyAndABeat
+Perfect|Divide|Ed Sheeran|Ed Sheeran|Pop|26|9|2017|C:\Users\User\Music\Perfect
+One Less Lonely Girl|My World|Justin Bieber|Justin Bieber|Pop|1|12|2009|C:\Users\User\Music\OneLessLonelyGirl
+Gas Pedal|Remember Me|Sage the Gemini|Justin Bieber & Iamsu!|Pop|22|3|2013|C:\Users\User\Music\GasPedal
+Minefields|Minefields|Faouzia|John Legend|Pop|29|1|2021|C:\Users\User\Minefields
+Love Me Now|Darkness and Light|John Legend|John Legend|Pop|11|11|2016|C:\Users\User\LoveMeNow
+You & I|Love in the Future|John Legend|John Legend|Pop|10|7|2014|C:\Users\User\You&I
+Ordinary People|Get Lifted|John Legend|John Legend|Pop|3|10|2009|C:\Users\User\OrdinaryPeople
+U Move, I Move|Bigger Love|John Legend|Jhené Aiko|Pop|19|6|2020|C:\Users\User\UMove,IMove
+Wild|Bigger Love|John Legend|Gary Clark Jr.|Pop|14|8|2020|C:\Users\User\Wild
+We Don't Talk Anymore|Nine Track Mind|Charlie Puth|Charlie Puth|Pop|3|8|2016|C:\Users\User\WeDon'tTalkAnymore
+Attention|Voicenotes|Charlie Puth|Charlie Puth|Pop|25|4|2017|C:\Users\User\Attention
+One Call Away|Nine Track Mind|Charlie Puth|Charlie Puth|Pop|15|9|2015|C:\Users\User\OneCallAway
+How Long|How Long|Charlie Puth|Charlie Puth|Pop|19|10|2017|C:\Users\User\HowLong
+Done For Me|Voicenotes|Charlie Puth|Kehlani|Pop|21|4|2018|C:\Users\User\DoneForMe
+The Way I Am|Voicenotes|Charlie Puth|Charlie Puth|Pop|9|7|2018|C:\Users\User\TheWayIAm
+I Hope|Goldmine|Gabby Barrett|Gabby Barrett|Country|7|2|2019|C:\Users\User\IHope

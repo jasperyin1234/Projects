@@ -1,0 +1,1095 @@
+/*for all webpages*/
+a{
+	color: #1167b1;
+}
+body{
+	margin: 0;
+	margin-bottom: 110px;
+	padding: 0;
+	background-color:#F3EBEA;
+}
+
+th{
+	margin: 0px;
+	padding: 10px;
+	color: rgb(255,255,255);
+	background-color: #B56727;
+}
+
+tr:nth-child(odd){
+background-color: rgb(255,229,153);
+}
+
+tr:nth-child(even){
+background-color: rgb(255, 203, 101);
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+/* button back to discover */
+.backButton{
+	margin-left: 10px;
+	border: solid black 1px;
+	background-color: #f7f7f7;
+	display: inline-flex;
+	height: 20px;
+	padding: 0;
+	border-radius: 5px;
+	overflow: hidden;
+	font-size: 18px;
+}
+.backButtonText{
+	padding: 0 5px;
+}
+.backButtonIcon{
+	display: inline-flex;
+	align-items: center;
+	padding: 0 10px;
+	height: 100%;
+	font-size: 1.0em;
+	background-color: rgba(0,0,0,0.05);
+	cursor: pointer;
+}
+.backButtonText a{
+	color: black;
+	text-decoration: none;
+}
+.backButton:hover{
+	background-color: #f2f3f4;
+}
+.backButton:active{
+	background-color: #e7e6e2;
+}
+/*for popup windows*/
+
+ #removingRest{
+	width: 100%;
+	height:100%;
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+
+ #removingRestCont{
+	width: 500px;
+	height: 300px;
+	background-color: white;
+	border-radius: 4px;	
+	text-align: center;
+	padding: 20px;
+	position: relative;
+}
+
+.verify-Yes{
+	position:absolute;
+	border-top: 3px;
+	width: 50%;
+	text-align: center;
+	bottom: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	display: inline;
+}
+
+.verify-No{
+	position:absolute;
+	border-top: 3px;
+	float: right;
+	width: 50%;
+	text-align: center;
+	bottom: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+/*for admin header*/
+#adminHeader{
+	background-color: rgb(255, 203, 101);
+	border-bottom: 5px solid;
+}
+
+#AppLogo{
+	width: 110px; 
+	height: 100px;
+	vertical-align: middle;
+}
+
+#appName{
+	display: inline-block;
+}
+
+#homeLink{
+	color: black;
+}
+
+.admin{
+	float: right;
+	
+}
+.adminIcon{
+	display:inline-block;
+	overflow: hidden;
+}
+
+.adminData, .adminSelection{
+	text-align: left;
+	position: absolute;
+	right:0;
+	padding-right:10px;
+	display: none;
+}
+
+.adminProfile, .adminSelect{
+	border: none;
+}
+
+.adminData a, .adminSelection a{
+	color: black;
+	display: block;
+}
+
+.adminIcon .adminProfile, .adminIcon .adminSelect{
+	border: none;
+	outline: none;
+	color: black;
+	background-color: inherit;
+	font-family: inherit;
+}
+
+.adminIcon:hover{
+	text-align: right;
+}
+
+.adminProfile:hover, .adminSelect:hover{
+	border: 1px solid;
+	display: block;
+	background-color: grey;
+}
+
+.adminIcon:hover .adminProfile, .adminIcon:hover .adminSelec{
+	background-color: grey;
+}
+
+.adminIcon:hover .adminData, .adminIcon:hover .adminSelection{
+	display:block;
+	box-shadow: 5px 10px silver;
+	background-color:white;
+	right:0;
+	min-width: 150px;
+	min-height: 100px;
+}
+.tab{
+	display: inline;
+	margin-left: 23px;
+}
+/*for admin navigation*/
+#adminNav{
+	background-color: black;
+	width: 100%;
+	height: 60px;
+	
+}
+
+#admAct{
+	float:left;
+}
+
+#admLink{
+	display: block;
+	color:white;
+	text-decoration: none;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 0;
+	font-size: 20px;
+}
+#admLink:hover{
+	background: red;
+}
+
+#admNavList{
+	list-style:none;
+	position: absolute;
+	width: 100%;
+	padding: 0;
+}
+
+/*for admin page*/
+#adminPageHeader{
+	padding-left: 10px;
+	clear: both; 
+	font-weight: bold; 
+	border-bottom: 1px solid; 
+	padding-bottom: 5px;
+}
+
+#searchBar{
+	float: right;
+	padding-bottom: 3px;
+}
+
+.theRestList{
+	width: 100%;
+	height: 300px;
+	overflow-x:hidden;
+}
+
+#restList{
+	border-spacing: 4px;
+	width: 100%;
+	height: 10px;
+	margin: 0px;
+	padding: 10px;
+	text-align: center;
+	font-size: 15px;
+	
+}
+
+#tag1{
+	width:222px;
+}
+
+#tag2{
+	width:325px;
+}
+
+#tag3{
+	width:350px;
+}
+
+#tag4{
+	width:150px;
+}
+
+#tag5{
+	width:85px;
+}
+
+#tag6{
+	width: 70px;
+}
+
+.editRestList{
+	padding-left: 10px;
+	padding-top: 10px; 
+	padding-bottom: 10px; 
+	display: inline-block;
+}
+
+#remove{
+	text-decoration: none;
+	color: black;
+}
+
+#removingRestCont{
+		text-align: center;
+}
+
+/*for admin edit page (modify page)*/
+#register-button{
+	color: black; 
+}
+
+/*for register restaurant webpage*/
+
+*{
+	box-sizing: border-box;
+}
+
+#Details{
+	float: left;
+	width: 50%;
+	padding: 10px;
+	height: 300px;
+	font-size: 20px;
+}
+
+/* #allDetails: after{
+	content: '';
+	display: table;
+	clear:both;
+} */
+
+#theName, #theCuisines,#theOptDay, #theOptHour, #rating, #price_rg, #Paym_Opt, #Cont, #website{
+	width: 500px;
+}
+
+.Details2{
+	 font-size: 18px;
+ }
+
+#theDesc{
+	width: 500px;
+	height: 100px;
+}
+
+#theLoc{
+	width: 500px;
+	height: 80px;
+}
+
+#putRestImg{
+	padding-left: 15px;
+	font-size: 18px;
+	display: inline-block;
+}
+
+#doneRegister{
+	width: 150px;
+}
+
+/*for footer*/
+#footer{
+	background-color: #FFDD99;
+	border-top: 1px solid;
+	bottom: 0;
+	width: 100%;
+	position: fixed;
+}
+
+#selection{
+	float: right;
+	padding-right: 10px;
+}
+
+#copyrights {
+	float: left;
+}
+
+
+/* restaurantDetails Page*/
+/* show details */
+.backButtonDetails{
+	margin-top: 25px;
+	margin-bottom: -20px;
+}
+.detailsHeader {
+    width: 60%;
+    position: relative;
+}
+.restaurantLogo {
+    justify-content: center;
+    align-items: center;
+	position: relative;
+    float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+    height: 250px;
+    background-color: rgb(181, 103, 39);
+}
+.details {
+    position: relative;
+    margin-left: 400px;
+    font-size: larger;
+    min-width: 300px;
+}
+#RestaurantName {
+    font-size: 45px;
+	margin-bottom: 10px;
+}
+.description {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: large;
+}
+.moreDetails {
+    position: relative;
+    width: 60%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.detailsTitle {
+    font-size: large;
+}
+
+/* Make reservation */
+.booking-btn{
+    border: none;
+    background-color:#F3EBEA
+}
+#makeReservationButton {
+    position: relative;
+    background-color: rgb(181, 103, 39);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: -7px;
+    cursor: pointer;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    padding: 15px 32px;
+    text-decoration: none;
+}
+.bg-modal {
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: rgba(0, 0, 0, 0.6);
+}
+.modal-content {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    border-radius: 4px;
+    padding: 20px;
+}
+.close {
+    position: absolute;
+    top: 0px;
+    right: 14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+.bookingInput {
+    width: 50%;
+    display: block;
+    background-color: white;
+    margin: 7px auto;
+}
+
+/* Gallery */
+.gallery {
+    position: absolute;
+    right: 20px;
+    top: 170px;
+    max-width: 350px;
+    text-align: center;
+    font-size: x-large;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+}
+
+/* memberRestaurantList Page*/
+#restListHeader{
+	padding-left: 10px;
+	font-size: 35px;
+}
+.memberRestList{
+	overflow-x: hidden;
+}
+.restList {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 18px;
+    border-spacing: 4px;
+    margin: 0px;
+    padding: 10px 10px 20px 10px;
+}
+#restlisthr{
+	margin-bottom: 0;	
+}
+#tagR1{
+	width:222px;
+}
+
+#tagR2{
+	width:450px;
+}
+
+#tagR3{
+	width:230px;
+}
+
+#tagR4{
+	width:150px;
+}
+
+#tagR5{
+	width:85px;
+}
+#tagR6{
+	text-align: left;
+	padding: 5px 5px 5px 10px;
+}
+/* booking history page */
+.bookingHistoryTable {
+    font-family: Arial Black;
+    width: 100%;
+}
+.th {
+    margin: 0px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: #B56727;
+}
+.btn {
+    text-align: center;
+    font-size: 15px;
+    margin: 10px 1px;
+    cursor: pointer;
+    border: 3px solid black;
+    color: black;
+}
+.btn:hover {
+    box-shadow: 0 10px 30px 0 rgb(0, 0, 0), 0 60px 50px 0 rgba(12, 1, 1, 0.315);
+}
+
+/*userProfileAdminView page*/
+.parents{
+	float: left;
+	width: 70%;
+}
+#profilePageHeader{
+	width: 70%;
+	display: inline-block;
+}
+#profilePageHeader2{
+	font-size: 35px;
+	padding-left: 10px;
+}
+#hrUserProfile{
+	width: 100%;
+	background-color: black;
+	margin-left: 10px;
+	border-top: solid 2px;
+}
+.parents1{
+	float: left;
+}
+.username{
+	padding-top: 10px;
+	padding-left: 20px;
+}
+#username1{
+	font-size: 20px;
+	margin: 0px;
+	padding-bottom: 10px;
+}
+#username2{
+	box-sizing: content-box;
+	width: 250px;
+	padding-left: 10px;
+	border: 1px solid black;
+	background-color: white;
+}
+.Email{
+	padding-left: 20px;
+}
+#Email1{
+	font-size: 20px;
+	margin: 0px;
+	padding-bottom: 10px;
+}
+#Email2{
+	box-sizing: content-box;
+	width: 250px;
+	padding-left: 10px;
+	border: 1px solid black;
+	background-color: white;
+}
+.PhoneNumber{
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+#PhoneNumber1{
+	font-size: 20px;
+	margin: 0px;
+	padding-bottom: 10px;
+}
+#PhoneNumber2{
+	box-sizing: content-box;
+	width: 250px;
+	padding-left: 10px;
+	border: 1px solid black;
+	background-color: white;
+}
+.Address{
+	margin-left: 50px;
+	float: left;
+}
+#Address1{
+	font-size: 20px;
+	margin: 0px;
+	padding-bottom: 10px;
+}
+#Address2{
+	box-sizing: content-box;
+	width: 300px;
+	height: 171px;
+	padding-left: 10px;
+	padding-top: 5px;
+	border: 1px solid black;
+	background-color: white;
+}
+#bookingHistory{
+	padding-left: 50px;
+	padding-top: 50px;
+	width: 400px;
+	text-align: center;
+}
+#bookingHistoryFooter{
+	height: 35px;
+	color: rgb(255,255,255);
+	background-color: #B56727;
+}
+#bookingHistory a{
+	text-decoration: none;
+	color: black;
+	border: solid #3f3f3f 2px ;
+	padding: 3px;
+	background-color: white;
+}
+#bookingHistory a:active{
+	background-color: grey;
+}
+
+/*userProfileUserView page*/
+.parents1 a{
+	padding-left: 20px;
+}
+.parents2{
+	margin-left: 50px;
+	float: left;
+}
+.parents2 a{
+	float: right;
+	text-decoration: none;
+	color: black;
+	border: solid black 1px;
+	padding: 3px;
+	background-color: white;
+}
+.parents2 a:active{
+	background-color: grey;
+}
+
+/*EditProfile Page*/
+.editProfileHeader{
+	width: 90%;
+}
+#editProfile{
+	font-size: 25px;
+}
+.editProfile1{
+	float: left;
+	margin-left: 25px;
+}
+#editUsername{
+	margin-bottom: 20px;
+	height: 20px;
+	width: 350px;
+	padding: 5px;
+}
+#editEmail{
+	margin-bottom: 20px;
+	width: 350px;
+	padding: 5px;
+}
+#editPhoneNumber{
+	margin-bottom: 20px;
+	width: 350px;
+	padding: 5px;
+}
+#format{
+	font-size: 20px;
+}
+.editProfile2{
+	float: left;
+	margin-left: 40px;
+}
+#editAddress{
+	margin-bottom: 30px;
+	width: 350px;
+	height: 186px;
+	padding: 5px;
+}
+
+/*memberList page*/
+#memberList{
+	font-size: 35px;
+	padding-left: 10px;
+}
+#hrMemberList{
+	width: 98%;
+	background-color: black;
+	border-top: solid 2px;
+}
+#searchFunction{
+	float: right;
+	padding-right: 30px;
+	padding-top: 10px;
+}
+#memberListTable{
+	width: 97%;
+	margin: auto;
+	padding-top: 30px;
+	text-align: center;
+}
+#header1{
+	width: 10%;
+}
+#header2{
+	width: 40%;
+}
+#header3{
+	width: 20%;
+}
+#header4{
+	width: 30%;
+}
+
+/*aboutUs page*/
+#AboutUsPageHeader{
+	text-align: center;
+	font-size: 50px;
+	text-decoration: underline;
+	margin-bottom: 30px;
+	font-family: 'Alfa Slab One', cursive;
+	font-family: 'Josefin Sans', sans-serif;
+}
+#banner{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	margin-bottom: 30px;
+}
+.aboutUsDesc{
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	font-size: 19px;
+	margin-bottom: 100px;
+}
+
+/*supportUs page*/
+#SupportUsPageHeader{
+	text-align: center;
+	font-size: 40px;
+	text-decoration: underline;
+	font-family: 'Alfa Slab One', cursive;
+
+}
+.email{
+	padding-top: 10px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+#IconEmail{
+	width: 30px;
+	height: 30px;
+	vertical-align: bottom;
+}
+.emailUs{
+	display: inline-block;
+	font-size: 25px;
+	padding-left: 5px;
+}
+.emailAddress{
+	margin: auto;
+	text-align: center;
+	border: 3px solid black;
+	width: 300px;
+	padding: 2px;
+}
+.call{
+	text-align: center;
+	padding-top: 40px;
+}
+#IconCall{
+	width: 22px;
+	height: 22px;
+}
+.callUs{
+	display: inline-block;
+	font-size: 25px;
+	padding-left: 5px;
+}
+.phoneNo{
+	padding-top: 30px;
+	text-align: center;
+	color: black;
+	font-size: 20px;
+}
+#supportUsDes{
+	padding-top: 20px;
+	text-align: center;
+	font-size: 20px;
+	width: 550px;
+	margin: auto;
+}
+.follow{
+	padding-top: 30px;
+	margin-bottom: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.followUs{
+	font-size: 25px;
+	padding-right: 20px;
+}
+#IconFb{
+	order: 1;
+	width: 35px;
+	padding-right: 10px;
+}
+#IconInsta{
+	order: 2;
+	width: 35px;
+	padding-right: 10px;
+}
+#IconTwitter{
+	order: 3;
+	width: 25px;
+}
+
+/* homepage */
+/* homepage trending */
+#trending1, #trending2, #trending3, #trending4, #trending5  {
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 150px;
+	border-radius: 10px;
+	width:300px;
+}
+
+/* homepage slider */
+.slider{
+  top: 20px;
+  width: 800px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  overflow: hidden;
+  justify-content: center;
+  position: relative;
+}
+
+.slides{
+  top: 1000px;
+  width: 500%;
+  height: 500px;
+  display: flex;
+}
+
+.slides input{
+  display: none;
+}
+
+.slide{
+  position: static;
+  width: 20%;
+  transition: 2s;
+}
+
+.slide img{
+  width: 800px;
+  height: 500px;
+}
+
+/*manual navigation*/
+.navigation-manual{
+
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn{
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+  margin-right: 40px;
+}
+
+.manual-btn:hover{
+  background: #40D3DC;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+  margin-left: -60%;
+}
+
+/*auto navigation*/
+.navigation-auto{
+
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  margin-top: 460px;
+}
+
+.navigation-auto div{
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+  margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background: black;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background: black;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background: black;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+  background: black;
+}
+
+#homepageHeader {
+	text-align: center;
+	font-size: 40px;
+}
+
+#homepageTrending {
+	margin: 60px 0px 10px 10px;
+	font-size: 35px;
+}
+
+#loginform input {
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+#login-btn {
+	margin-top: 0px;
+}
+
+#registerform{
+	font-size: 25px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+}
+
+#registerform input {
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+#registerform textarea {
+	width: 400px;
+	height: 100px;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+#registerinput {
+	font-size: 25px;
+}
+
+#registerHr {
+	width: 100%;
+	background-color: black;
+	border-top: solid 2px;
+}
+
+#registerheader {
+	font-size: 35px;
+}
+
+#forgotHeader, #resetHeader, #loginheader {
+	font-size: 35px;
+	padding-left: 10px;
+}
+
+#forgotHr, #resetHr, #loginlinebreak {
+	width: 100%;
+	background-color: black;
+	margin-left: 10px;
+	border-top: solid 2px;
+}
+
+#forgotform, #loginform {
+	font-size: 25px;
+	padding-left: 10px;
+}
+
+#forgotemail, #loginform {
+	font-size: 25px;
+}
+
+#forgotsubmit, #registerbutton {
+	font-size: 15px;
+}
+
+#loginform a {
+	font-size: 17px;
+}
+
+#forgotform input {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 25px;
+}
+
+#resetForm {
+	padding-left: 10px;
+	font-size: 25px;
+}
+
+#resetinput {
+	font-size: 20px;
+}
+
+#resetsubmit {
+	font-size: 17px;
+	margin-top: 10px;
+}

@@ -1,0 +1,4 @@
+patient 1|PATIENT|patient1login|patient1pass|0121111111|111111111111
+patient 2|PATIENT|patient2login|patient2pass|0122222222|222222222222
+patient 3|PATIENT|patient3login|patient3pass|0123333333|333333333333
+patienr 4|PATIENT|patient4login|patient4pass|0124444444|444444444444

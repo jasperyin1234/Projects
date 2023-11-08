@@ -1,0 +1,3 @@
+doctor 1|DOCTOR|doctor1login|doctor1pass|0161111111|specialty1|credentials1
+doctor 2|DOCTOR|doctor2login|doctor2pass|0162222222|specialty2|credentials2
+doctor 3|DOCTOR|doctor3login|doctor3pass|0163333333|specialty3|credentials3
